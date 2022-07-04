@@ -1,0 +1,131 @@
+body{
+margin: 0px;
+padding: 0px;
+background:#F3F5FC;
+
+}
+.container{
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+    background: #F3F5FC;
+    background-repeat: no-repeat;
+}
+.logo {
+    width: 100%;
+    float: left;
+    background: white;
+}
+.left {
+    float: left;
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;
+    background: #F3F5FC;
+}
+.right {
+    float: right;
+    width:30%;
+    height: auto;
+    border-radius: 24px;
+   
+}
+.left-bottom {
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+     
+}
+.logoImg {
+margin-top: 3%;
+float: inherit;
+margin-left: 5%;
+}
+.title {
+    float: inherit;
+    margin-left: 15%;
+    margin-top: 3%;
+    font-size: 36px;
+}
+.text-input {
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    color: #0A3871;
+    font-size: 24px;
+    border: none;
+    outline: none;
+    background: #F3F5FC;
+    border-radius: 24px;
+}
+#imgDer {
+    margin-top: 20%;
+    margin-left: 2%;
+    width: 90%;
+    height: auto;
+}
+#texto {
+    margin-left: 7%;
+    margin-right: 5%;
+    font-size: 20px;
+}
+#texto2 {
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    color: #0A3871;
+    width: 80%;
+    height: 60%;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    border-radius: 24px;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+#btn-encriptar {
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    margin-left: 10%;
+    background: #0A3871;
+    color:#F3F5FC;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 24px;
+    border: #F3F5FC;
+    box-shadow: 7px 10px #D3DFE8;
+}
+#btn-desencriptar {
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    margin-left: 10%;
+    background:#D3DFE8;
+    color:#0A3871;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 24px;
+    border: #0A3871;
+    box-shadow: 7px 10px #0A3871;
+}
+#copiar
+{
+    margin-left: 33%;
+    margin-top: 90%;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    background:#D3DFE8;
+    font-size: 18px;
+    border-radius: 24px;
+    display: none;
+    border: #0A3871;
+    box-shadow: 7px 10px #0A3871;
+}
